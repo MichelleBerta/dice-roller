@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
 }
 .container {
-  width: 400px;
+  /* width: 400px; */
   padding: 50px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 .dice-wrapper {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
@@ -99,4 +99,9 @@ button {
     outline: none;
   }
   
-  
+  /* modal info */
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

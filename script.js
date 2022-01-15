@@ -57,3 +57,9 @@ function roll() {
     }, 1000);
 }
 roll();
+
+// modal
+$(document).ready(function(){
+  $('.modal').modal();
+});
+
