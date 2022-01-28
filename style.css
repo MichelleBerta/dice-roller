@@ -5,9 +5,10 @@
 }
 body {
   height: 100vh;
-  background-image: url("img/forest_background.jpeg");
+  background-color: mediumpurple;
+  /* background-image: url("img/forest_background.jpeg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .container {
   /* width: 400px; */
@@ -26,12 +27,6 @@ body {
   display: flex;
   justify-content: space-around;
 }
-img {
-  /* display: inline-block; */
-  margin: 10px;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  opacity: 90%;
-}
 
 #die-1 {
   height: 125px;
@@ -43,7 +38,7 @@ img {
   width: 125px;
 }
 p {
-  background-color: hsl(0, 0%, 50%, 0.5);
+  /* background-color: hsl(0, 0%, 50%, 0.5); */
   font-size: 22px;
   margin: 30px 0;
   font-weight: 500;
@@ -76,32 +71,34 @@ button {
    here it applies to dice via their class 
    */
 
-   .diceIcon {
-    position: relative;
-  }
-  
-  div {
-    padding-bottom: 30px;
-  }
-  
-  /* button response styles */
-  
-  button:hover {
-    background: lightgray;
-  }
-  
-  button:active {
-    background: #fff;
-    border: 2px solid #ccc;
-  }
-  
-  button:focus {
-    outline: none;
-  }
-  
-  /* modal info */
-  .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.diceIcon {
+  position: relative;
+  margin: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 90%;
+}
+
+div {
+  padding-bottom: 30px;
+}
+
+/* button response styles */
+
+button:hover {
+  background: lightgray;
+}
+
+button:active {
+  background: #fff;
+  border: 2px solid #ccc;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* image element created after dice roll */
+.newCharacter {
+  width: 304;
+  height: 228;
+}
