@@ -98,7 +98,7 @@ button:focus {
 }
 
 /* image element created after dice roll */
-.newCharacter {
+.characterReveal {
   width: 304;
   height: 228;
 }
