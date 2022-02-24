@@ -49,44 +49,42 @@ function roll() {
     // conditional statement to set character image //
     const dieRoll = dieOneValue + 1 + (dieTwoValue + 1);
 
-    var createImage = function(fileName, description) {
+    var createImage = function (fileName, description) {
       var oldElement = document.getElementById("characterReveal");
-      if(oldElement) {
-          oldElement.parentNode.removeChild(oldElement);
+      if (oldElement) {
+        oldElement.parentNode.removeChild(oldElement);
       }
-      let x = document.createElement("img"); 
-       x.setAttribute("id", "characterReveal");
-       x.setAttribute("src", fileName);
-       x.setAttribute("class", "newCharacter");
-       x.setAttribute("alt", description);
-       document.body.appendChild(x);
-     };
-   let character;
-   if (dieRoll === 2) {
-     createImage("img/characters/pug-puppy.jpg", "Pug Puppy");
-   } else if (dieRoll === 3) {
-     createImage("img/characters/bullmastiff-puppy.jpg", "Bull Mastiff Puppy");
-   } else if (dieRoll === 4) {
-     createImage("img/characters/beagle-puppy.jpg", "Beagle Puppy");
-   } else if (dieRoll === 5) {
-     createImage("img/characters/Bulldog-puppy.jpg", "Bulldog Puppy");
-   } else if (dieRoll === 6) {
-     createImage("img/characters/collie-puppy.jpg", "Collie Puppy");
-   } else if (dieRoll === 7) {
-     createImage("img/characters/corgi-puppy.jpg", "Corgi Puppy");
-   } else if (dieRoll === 8) {
-     createImage("img/characters/german-shepherd-puppy.jpg", "White German Shepherd Puppy");
-   } else if (dieRoll === 9) {
-     createImage("img/characters/golden-puppy.jpg", "Golden Retriever Puppy");
-   } else if (dieRoll === 10) {
-     createImage("img/characters/husky-puppy.jpg", "Husky Puppy");
-   } else if (dieRoll === 11) {
-     createImage("img/characters/saint-bernard-puppy.jpg", "Saint Bernard Puppy");
-   } else if (dieRoll === 12) {
-     createImage("img/characters/boston-puppy.jpg", "Boston Terrier Puppy");
-   }
-
- }, 1000);
+      let x = document.createElement("img");
+      x.setAttribute("id", "characterReveal");
+      x.setAttribute("src", fileName);
+      x.setAttribute("class", "newCharacter");
+      x.setAttribute("alt", description);
+      document.body.appendChild(x);
+    };
+    let character;
+    if (dieRoll === 2) {
+      createImage("img/characters/golden-puppy.jpg", "Golden Retriever Puppy");
+    } else if (dieRoll === 3) {
+      createImage("img/characters/bullmastiff-puppy.jpg", "Bull Mastiff Puppy");
+    } else if (dieRoll === 4) {
+      createImage("img/characters/beagle-puppy.jpg", "Beagle Puppy");
+    } else if (dieRoll === 5) {
+      createImage("img/characters/Bulldog-puppy.jpg", "Bulldog Puppy");
+    } else if (dieRoll === 6) {
+      createImage("img/characters/collie-puppy.jpg", "Collie Puppy");
+    } else if (dieRoll === 7) {
+      createImage("img/characters/pug-puppy.jpg", "Pug Puppy");
+    } else if (dieRoll === 8) {
+      createImage("img/characters/german-shepherd-puppy.jpg", "White German Shepherd Puppy");
+    } else if (dieRoll === 9) {
+      createImage("img/characters/corgi-puppy.jpg", "Corgi Puppy");
+    } else if (dieRoll === 10) {
+      createImage("img/characters/husky-puppy.jpg", "Husky Puppy");
+    } else if (dieRoll === 11) {
+      createImage("img/characters/saint-bernard-puppy.jpg", "Saint Bernard Puppy");
+    } else if (dieRoll === 12) {
+      createImage("img/characters/boston-puppy.jpg", "Boston Terrier Puppy");
+    }
+  }, 1000);
 }
 roll();
-
