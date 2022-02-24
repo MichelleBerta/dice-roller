@@ -23,13 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./img/dice-roller-screenshot.png)
 
 ### Links
 
 - Live Site URL: [Dice Roller](https://michelleberta.github.io/dice-roller/)
-
-## My process
 
 ### Built with
 
