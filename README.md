@@ -5,7 +5,7 @@
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [My Process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -28,6 +28,8 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Dice Roller](https://michelleberta.github.io/dice-roller/)
+
+## My Process
 
 ### Built with
 
