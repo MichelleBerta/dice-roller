@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roll The Dice</title>
+    <title>Dice Roller</title>
     <!--Google Font-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <!--Stylesheet-->
@@ -13,15 +13,14 @@
 
 <body>
     <div class="container">
-        <p>Let The Dice<br>Choose Your Character<br></p>
+        <p>Let The Dice<br>Choose Your Puppy<br></p>
         <div class="dice-wrapper">
             <img src="img/dice-six-faces-one.svg" class="diceIcon" id="die-1">
             <img src="img/dice-six-faces-two.svg" class="diceIcon" id="die-2">
         </div>
-        <button id="shake" onclick="roll()">Roll the Dice</button>
+        <button class="button" id="shake" onclick="roll()">Roll the Dice</button>
         <p id="total"></p>
-
-        <p id="characterReveal"></p>
+        <div class="characterBox" id="characterReveal"></div>
 
         <!--Script-->
         <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
