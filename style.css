@@ -5,10 +5,7 @@
 }
 body {
   height: 100vh;
-  background-color: mediumpurple;
-  /* background-image: url("img/forest_background.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat; */
+  background-color: lightslategray;
 }
 .container {
   /* width: 400px; */
@@ -51,7 +48,7 @@ p {
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 .button {
-  background-color:hotpink;
+  background-color: darkslategray;
 }
 button {
   color: white;
@@ -85,7 +82,7 @@ div {
 /* button response styles */
 
 button:hover {
-  background:darkmagenta
+  background: black;
 }
 
 button:active {
