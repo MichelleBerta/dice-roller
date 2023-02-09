@@ -7,15 +7,13 @@ let images = ["img/dice-six-faces-one.svg", "img/dice-six-faces-two.svg", "img/d
 
 let dice = document.querySelectorAll("img");
 
-// add sound to dice roll
-const audio = new Audio("http://cd.textfiles.com/itcontinues/WIN/YTB22/RATTLE1.WAV");
-const buttons = document.querySelectorAll("button");
 
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    audio.play();
-  });
-});
+
+function play() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}
+
 
 // adaptable SHAKE function, from
 // https://bradleyhamilton.com/projects/shake/index.html
